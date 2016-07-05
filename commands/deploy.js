@@ -3,8 +3,12 @@ module.exports = {
   topic: 'sf',
   command: 'deploy',
   description: 'deploys salesforce metadata',
-  help: 'optionally specify the directory to deploy with an argument',
+  help: 'sf:deploy reads salesforce metadata in metadata api format and deploys it to your salesforce environment',
+  flags: [
+    {name: 'dir', char: 'd', description: 'directory to deploy', hasValue: true}
+  ],
   run: function (context) {
-    console.log('Deploying salesforce metadata');
+    const src = context.flags.dir ? context.flags.dir : '.';
+    console.log(`Deploying salesforce metadata from ${src}`);
   }
 };
