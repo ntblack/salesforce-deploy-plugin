@@ -1,0 +1,14 @@
+{
+  "name": "salesforce-deploy-plugin",
+  "version": "1.0.0",
+  "description": "Heroku CLI plugin for salesforce deployments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "author": "ntblack",
+  "license": "ISC"
+}
