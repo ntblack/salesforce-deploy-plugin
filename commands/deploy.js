@@ -1,4 +1,6 @@
 'use strict';
+const cli = require('heroku-cli-util');
+
 module.exports = {
   topic: 'sf',
   command: 'deploy',

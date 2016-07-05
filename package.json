@@ -10,5 +10,9 @@
     "heroku-plugin"
   ],
   "author": "ntblack",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "heroku-cli-util": "^6.0.14",
+    "jsforce-deploy": "https://github.com/ntblack/jsforce-deploy"
+  }
 }
